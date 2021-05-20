@@ -1,8 +1,16 @@
+/**
+ * This class talks about Penguins
+ * @author: All of us
+ */
 public class Penguin{
     private String title;
 
     public Penguin(String title){
         this.title = title;
+    }
+
+    public void speak(){
+        System.out.println("Cheap");
     }
 
     public String toString(){
