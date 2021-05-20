@@ -8,4 +8,9 @@ public class Penguin{
     public String toString(){
         return title + " is a penguin";
     }
+
+    public static void main(String[] args) {
+        Penguin pete = new Penguin("Pete");
+        pete.toString();
+    }
 }
