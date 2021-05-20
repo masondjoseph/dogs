@@ -1,9 +1,8 @@
-package dogs;
-
 public class Dogs {
     private String name;
     private String owner;
-    public class Dogs() {
+    
+    public Dogs() {
         System.out.println("Creating a Dog");
     }
 
@@ -18,5 +17,9 @@ public class Dogs {
 
     public static void main(String[] args) {
         System.out.print("Hello world");
+        System.out.println("This is an interesting class");
     }
+    private String title;
+
+
 }
