@@ -1,6 +1,6 @@
 public class cat{
     private String title;
-    public Cat (String title){
+    public cat (String title){
         this.title = title;
     }
     public String toString(){
