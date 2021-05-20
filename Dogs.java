@@ -1,7 +1,8 @@
 public class Dogs {
     private String name;
     private String owner;
-    public class Dogs() {
+    
+    public Dogs() {
         System.out.println("Creating a Dog");
     }
 
